@@ -1,0 +1,29 @@
+{
+  "name": "filter-rtcs",
+  "version": "0.1.0",
+  "description": "",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape src/**/spec.ts",
+    "blastoff": "build/index.js"
+  },
+  "author": "Luke Whyte",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.7",
+    "@types/node": "^8.0.53",
+    "@types/request-promise": "^4.1.41",
+    "@types/tape": "^4.2.31",
+    "dotenv": "^4.0.0",
+    "tape": "^4.8.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.85",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
