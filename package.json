@@ -5,7 +5,7 @@
   "preferGlobal": true,
   "scripts": {
     "test": "ts-node node_modules/tape/bin/tape src/**/spec.ts",
-    "blastoff": "build/index.js"
+    "booya": "build/index.js"
   },
   "author": "Luke Whyte",
   "license": "MIT",
@@ -22,6 +22,8 @@
   "dependencies": {
     "@types/lodash": "^4.14.85",
     "cheerio": "^1.0.0-rc.2",
+    "csv": "^3.1.0",
+    "fs": "0.0.1-security",
     "lodash": "^4.17.10",
     "request": "^2.87.0",
     "request-promise": "^4.2.2"

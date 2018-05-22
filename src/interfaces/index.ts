@@ -15,3 +15,7 @@ export interface Incident {
     narrative: string;
     technical_assistance_given: boolean;
 }
+
+export interface IncidentWithPrograms extends Incident {
+	programs_provided: string;
+}
